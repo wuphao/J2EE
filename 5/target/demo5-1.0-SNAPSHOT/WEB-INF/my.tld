@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xml="http://www.w3.org/XML/1998/namespace"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+        http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd ">
+    <tlib-version>1.0</tlib-version><!--指定当前标签库的版本-->
+    <short-name>mine</short-name><!--指定当前标签库的简称，这个名称无所谓了，随便起。-->
+    <uri>http://www.itcast.cn/tags</uri><!--指定标签库的uri-->
+
+    <tag><!--部署一个标签-->
+        <name>ResetTag</name><!--指定标签的名称-->
+        <tag-class>com.demo5.ResetTag</tag-class><!--指定标签处理类-->
+        <body-content>scriptless</body-content><!--指定标签体内容类型-->
+    </tag>
+
+</taglib>
